@@ -1,65 +1,20 @@
 {
-  "name": "pride-background",
-  "version": "0.1.0",
-  "author": "Nichole Mattera",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://git.nicholemattera.com/NicholeMattera/Pride-Background-Generator.git"
-  },
-  "homepage": "https://pride.nicholemattera.gay",
+  "name": "pride-background-generator",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "core-js": "^3.35.1",
-    "vue": "^3.4.15"
+    "vue": "^3.3.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.7",
-    "@babel/eslint-parser": "^7.23.3",
-    "@vue/cli-plugin-babel": "^5.0.8",
-    "@vue/cli-plugin-eslint": "^5.0.8",
-    "@vue/cli-service": "^5.0.8",
-    "eslint": "^8.56.0",
-    "eslint-plugin-vue": "^9.20.1",
-    "prettier": "3.2.4"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {
-      "comma-dangle": [
-        "error",
-        {
-          "arrays": "always-multiline",
-          "objects": "always-multiline",
-          "imports": "always-multiline",
-          "exports": "always-multiline"
-        }
-      ],
-      "semi": [
-        "error",
-        "never"
-      ]
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
 }

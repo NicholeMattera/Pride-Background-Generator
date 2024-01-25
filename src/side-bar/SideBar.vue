@@ -62,7 +62,7 @@
 
   function viewCode() {
     window.open(
-      'https://git.nicholemattera.com/NicholeMattera/Pride-Background-Generator',
+      'https://github.com/NicholeMattera/Pride-Background-Generator',
       '_blank'
     )
   }
